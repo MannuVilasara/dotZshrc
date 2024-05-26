@@ -5,9 +5,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-
+user=whoami
 # Zinit 
-ZINIT_HOME="/home/mannu/.local/share/zinit/zinit.git"
+ZINIT_HOME="/home/{USER}/.local/share/zinit/zinit.git"
 
 # check zinit
 if [ ! -d "$ZINIT_HOME" ]; then
