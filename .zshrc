@@ -7,7 +7,7 @@ fi
 
 user="$(whoami)"
 # Zinit 
-ZINIT_HOME="/home/{$USER}/.local/share/zinit/zinit.git"
+ZINIT_HOME="/home/$USER/.local/share/zinit/zinit.git"
 
 # check zinit
 if [ ! -d "$ZINIT_HOME" ]; then
