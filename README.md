@@ -28,4 +28,6 @@ zsh
 
 ```
 
+The powerlevel-10k configuration will start automatically, if it doesn't type `p10k configure` to start it or reconfigure it.
+
 Make sure to star the repo ⭐
