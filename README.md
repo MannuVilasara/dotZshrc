@@ -22,6 +22,7 @@ yay -S zsh git fzf zoxide thefuck # replace yay with paru if u use paru
 # install my .zshrc
 git clone https://github.com/MannuVilasara/dotZshrc.git
 cd dotZshrc
+mv ~/.zshrc ~/.zshrc.bak
 mv .zshrc ~/
 zsh
 
