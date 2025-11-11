@@ -64,11 +64,21 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 #Alias
 
-alias ls="ls --color"
+alias ls="eza --color --icons"
 alias fm="ranger"
 alias vim="nvim"
 alias c="clear"
-alias q="quit"
+alias q="exit"
+alias gc="git commit"
+alias gp="git push"
+alias gl="git pull"
+alias gco="git checkout"
+alias gbr="git branch"
+alias gcl="git clone"
+alias gsts="git status"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
 
 
 
